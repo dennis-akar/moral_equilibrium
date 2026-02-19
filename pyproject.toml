@@ -1,0 +1,14 @@
+[project]
+name = "moral-equilibrium"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "jsonlines>=4.0.0",
+    "matplotlib>=3.9.4",
+    "numpy>=2.0.2",
+    "openai>=2.21.0",
+    "scipy>=1.13.1",
+    "tqdm>=4.67.3",
+]

@@ -1,0 +1,9 @@
+{
+  "job_id": "ftjob-n0hkQdHnn0F1Ttn9Bpdw1Mdl",
+  "file_id": "file-V7vhUCYtjfx4rXrH74C61w",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "status": "succeeded",
+  "n_examples": 75,
+  "n_epochs": 3,
+  "fine_tuned_model": "ft:gpt-4.1-mini-2025-04-14:personal:moral-equilibrium:DAwYS1p7"
+}
