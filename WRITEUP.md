@@ -36,9 +36,9 @@ This experiment tests whether GPT-4.1-mini can develop more internally consisten
 
 | Split | Base | Fine-tuned | Delta |
 |-------|------|-----------|-------|
-| Train (18) | 0.977 | 0.982 | +0.005 |
-| Held-out (7) | 0.952 | 0.976 | +0.024 |
-| OOD (9) | 0.981 | 0.981 | +0.028 |
+| Train (18) | 0.972 | 0.977 | +0.005 |
+| Held-out (7) | 0.929 | 0.952 | +0.024 |
+| OOD (9) | 0.954 | 0.981 | +0.028 |
 
 The largest single-scenario improvement was ph_organ_1 (+0.417, p=0.007), a genuinely difficult organ allocation dilemma where the base model had persistent cycles.
 

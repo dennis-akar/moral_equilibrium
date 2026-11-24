@@ -20,9 +20,9 @@ I built a pipeline that (1) elicits pairwise moral preferences from GPT-4.1-mini
 
 | Split | Base | Fine-tuned | Delta |
 |-------|------|-----------|-------|
-| Train (18) | 0.977 | 0.982 | +0.005 |
-| Held-out (7) | 0.952 | 0.976 | +0.024 |
-| OOD (9) | 0.981 | 0.981 | +0.028 |
+| Train (18) | 0.972 | 0.977 | +0.005 |
+| Held-out (7) | 0.929 | 0.952 | +0.024 |
+| OOD (9) | 0.954 | 0.981 | +0.028 |
 
 10-repeat targeted evaluation on scenarios that changed: `asst_creativity_1` +0.200 (p<0.0001, d=2.83), `asst_flattery_1` +0.225 (p=0.0001, d=2.36), but `trolley_surgeon_1` -0.100 (p=0.025, d=-1.15). Aggregate across all 11 scenarios: not significant.
 
